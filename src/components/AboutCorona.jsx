@@ -19,7 +19,6 @@ const AboutCorona = () => {
               headingText="What is coronavirus?"
               paraText1="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
               Velit officia consequat duis enim velit mollit. Exercitation"
-              paraText2=""
             />
             <Button className="common-btn" buttonText="how to prevent" />
           </div>
@@ -33,7 +32,6 @@ const AboutCorona = () => {
               headingText="Why is it Dangerous?"
               paraText1="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
               Velit officia consequat duis enim velit mollit. Exercitation"
-              paraText2=""
             />
             <Button className="common-btn" buttonText="how to prevent" />
           </div>
