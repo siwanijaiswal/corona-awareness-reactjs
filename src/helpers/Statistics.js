@@ -171,7 +171,7 @@ export const quickLinks = [
   {
     id: 2,
     heading: "Helpful Links",
-    list1: "Healthcare Professional",
+    list1: "Health Care",
     list2: "LGU Facilities",
     list3: "FAQs",
     list4: "Protect Your Family",
