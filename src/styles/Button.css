@@ -1,0 +1,44 @@
+.header-btn {
+  padding: 12px 32px;
+  text-transform: capitalize;
+  border-radius: 25px;
+  background-color: var(--primary-color);
+  color: white;
+  border-color: unset;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: none;
+}
+.header-desktop {
+  display: none;
+  padding: 12px 32px;
+  text-transform: capitalize;
+  border-radius: 25px;
+  background-color: var(--primary-color);
+  color: white;
+  border-color: unset;
+  margin-top: 2rem;
+  border: none;
+}
+
+.common-btn {
+  background-color: var(--primary-color);
+  color: rgba(255, 255, 255, 1);
+  line-height: 18.83px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 12px 32px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border: none;
+}
+
+@media (min-width: 1200px) {
+  .header-desktop {
+    display: block;
+  }
+
+  .header-btn {
+    display: none;
+  }
+}

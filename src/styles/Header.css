@@ -1,0 +1,132 @@
+header {
+  border-bottom-right-radius: 0px;
+  background-color: #f0ecf9;
+  overflow: hidden;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 455px;
+  align-items: center;
+  margin-top: 5rem;
+  border-bottom-right-radius: 0px;
+  background-color: #f0ecf9;
+  overflow: hidden;
+}
+
+.banner-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: 1rem 3rem; */
+}
+
+.banner-image img {
+  width: min(549px, 90%);
+}
+
+.banner-top-para {
+  font-size: 1rem;
+  font-weight: 700px;
+  line-height: 10px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  text-align: center;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 4rem 2rem 4rem;
+}
+
+.banner-header {
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 900px;
+  color: var(--primary-color);
+  line-height: 30px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 431px) {
+  .header-section {
+    margin-top: 6rem;
+    min-height: 552px;
+  }
+  .banner-top-para {
+    font-size: 1.5rem;
+    font-weight: 700px;
+    line-height: 10px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-section {
+    min-height: 570px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-section {
+    min-height: 686px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    border-bottom-right-radius: 300px;
+  }
+  .header-section {
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: -6rem;
+    position: relative;
+    align-items: unset;
+    justify-content: unset;
+    min-height: 620px;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 11rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    max-width: 455px;
+  }
+
+  .banner-top-para {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 20px;
+  }
+
+  .banner-header {
+    font-size: 3rem;
+    line-height: 70px;
+    margin-top: unset;
+  }
+
+  .banner-image img {
+    top: 80px;
+  }
+
+  .banner-image {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 5rem;
+  }
+}
