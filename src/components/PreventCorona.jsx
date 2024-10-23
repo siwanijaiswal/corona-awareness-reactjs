@@ -24,10 +24,7 @@ const PreventCorona = () => {
                 Velit officia consequat duis enim velit mollit. Exercitation"
             paraText2="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint."
           />
-          <Button
-            className="common-btn"
-            buttonText="Read More About Prevention"
-          />
+          <Button className="common-btn" buttonText="Read More" />
         </div>
       </section>
     </>
